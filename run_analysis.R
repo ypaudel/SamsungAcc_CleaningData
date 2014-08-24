@@ -73,4 +73,4 @@
      write.table(finaldata,"TidyData.txt",row.names=FALSE)
      
 ## NOTE: TO READ BACK THE OUTPUT FILE IN R
-## "head(read.table(filelocation, header=TRUE,stringsAsFactors=FALSE))"
+## "read.table(filelocation, header=TRUE,stringsAsFactors=FALSE)"
